@@ -1,0 +1,3 @@
+- The READ RTT of quorum re can be very badly affected by scaling of QPS
+- Lightweight transactions have a faulty PAXOS algorithm.
+	- Cassandra@2.0.0 lightweight transactions have "linearizable consistency" with a faux-paxos algorithm (https://aphyr.com/posts/294-call-me-maybe-cassandra)

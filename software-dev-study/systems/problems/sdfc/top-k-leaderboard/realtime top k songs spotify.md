@@ -14,3 +14,7 @@ tags:
 - User can view top k elements
 - User can select time range from a->b time
 	- Sometimes we could have this as: last 10 minutes, last 1 hour, last day, last month.
+
+SDFS data analysis needs you to have adequate tags on your classes. Genre, Rating, Views, Comments - so that we can get top k of different categories.
+
+Counter distributed, build that.
